@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+        <div id="Outside">
+        <form id="survey-form" action="/my-survey-form">
+        <h1>Survey form for Job Satisfaction</h1>
+        <div class="boxed">
+        <div1>
+            <label id="name-label" for="name">Name:
+            <input type="text" required id="name" name="user_name" placeholder="Enter your name here"><br>
+            </label> 
+        </div1>
+        <div2>
+            <label for="gender">Gender:
+                <select>
+                    <option value="Select an option">Select an option</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+                </select>
+            </label>
+        </div2>
+
+        <div3>
+            <label id="email-label" for="Email">Email:
+            </label>
+            <input type="text" required id="email" name="user_mail" placeholder="Enter Email here"><br>
+        </div3>
+        <div4>
+            <label id="number-label" for="number">Number:
+            </label>
+            <input type="number" required id="number" name="user_number" placeholder="Enter 10-Digit Number here" min="1" max="9"> 
+        </div4>     
+        <div5>
+            <label for="Experience">Years of Experience:
+                <select name="Experience" id="experience">
+                    <option value="0-5 Years">0-5 Years</option>
+                    <option value="6-10 Years">6-10 Years</option>
+                    <option value="11-15 Years">11-15 Years</option>
+                    <option value="More than 15 Years">More than 15 Years</option>
+                </select>
+            </label>
+        </div5>
+        <div6>
+            <p>Rating:</p>
+            <input type="radio" id="5" name="rating" value="5">
+            <label for="5">5</label><br>
+            <input type="radio" id="4" name="rating" value="4">
+            <label for="4">4</label><br>
+            <input type="radio" id="3" name="rating" value="3">
+            <label for="3">3</label><br>
+            <input type="radio" id="2" name="rating" value="2">
+            <label for="2">2</label><br>
+            <input type="radio" id="1" name="rating" value="1">
+            <label for="1">1</label><br>
+         </div6>
+         <div7>
+             <label id="comments-label" for="Comments">Comments on your job: </label>
+             <input type="text" required id="comments" name="user_comments" placeholder="Give your views on your Job" style="width: 300px; height: 100px;">
+         </div7>
+         <div8>
+         <button type="Submit">Submit</button>
+         </div8>
+        </div>
+         </form>
+</body>
+</html>    

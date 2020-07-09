@@ -1,0 +1,72 @@
+
+        div{
+            background-color: yellowgreen;
+        }
+        .boxed{
+            background: linear-gradient(80deg,maroon,pink,rgb(75, 170, 238));
+            height: 600px;
+            width: 600px;
+            position: relative;
+            left: 400px;
+        }
+        h1{
+            position: relative;
+            left:370px;
+            font-family: Lucida Sans;
+            font-size: 40px;
+        }
+        div1{
+            position: relative;
+            left: 30px;
+            top: 20px;
+            font-family: Cambria;
+            font-size: 20px;
+        }
+        div2{
+            position: relative;
+            left:30px;
+            top:40px;
+            font-family: Cambria;
+            font-size: 20px;
+        }
+        div3{
+            position: relative;
+            left: -165px;
+            top: 80px;
+            font-family: Cambria;
+            font-size: 20px;
+        }
+        div4{
+            position: relative;
+            left: 30px;
+            top: 100px;
+            font-family: Cambria;
+            font-size: 20px;
+        }
+        div5{
+            position: relative;
+            left: -197px;
+            top: 140px;
+            font-family: Cambria;
+            font-size: 20px;
+        }
+        div6{
+            position: relative;
+            left:30px;
+            top: 140px;
+            font-family: Cambria;
+            font-size: 20px;
+        }
+        div7{
+            position: relative;
+            left: 30px;
+            top: 150px;
+            font-family: Cambria;
+            font-size: 20px;
+        }
+        div8{
+            position: relative;
+            left: -480px;
+            top: 220px;
+        }
+    
